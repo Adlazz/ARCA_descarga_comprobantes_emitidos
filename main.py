@@ -216,8 +216,8 @@ def login_afip(cuit, password, fecha_desde, fecha_hasta):
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    cuit = "27140916973"
-    password = "Ramolaz2023"
+    cuit = "tu-cuit-aqui"
+    password = "tu-contraseña-aqui"
     
     print("Por favor, ingrese el rango de fechas (formato DD/MM/YYYY)")
     fecha_desde = get_valid_date("Fecha desde: ")
